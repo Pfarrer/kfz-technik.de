@@ -1,4 +1,4 @@
-# KFZ-Technik.de
+# KFZ-Pfretzschner.de
 
 Statische Website für die KFZ-Werkstatt von Tim Pfretzschner.
 
