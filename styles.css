@@ -228,7 +228,7 @@ header {
 .contact-content {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 4rem;
+    gap: 3rem;
 }
 
 .contact-item {
@@ -242,6 +242,17 @@ header {
 
 .contact-item p {
     color: #666;
+}
+
+.contact-item a {
+    color: #e74c3c;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.contact-item a:hover {
+    color: #c0392b;
+    text-decoration: underline;
 }
 
 .contact-form {
