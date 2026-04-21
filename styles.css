@@ -214,6 +214,68 @@ header {
     background: white;
 }
 
+.soziales {
+    padding: 60px 0;
+    background: #f0f4f8;
+}
+
+.soziales-content {
+    display: flex;
+    align-items: center;
+    gap: 2.5rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.soziales-image {
+    flex-shrink: 0;
+    width: 220px;
+}
+
+.soziales-image img {
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+}
+
+.soziales-text h2 {
+    font-size: 1.4rem;
+    color: #2c3e50;
+    margin-bottom: 0.75rem;
+}
+
+.soziales-text p {
+    color: #555;
+    font-size: 0.95rem;
+    line-height: 1.7;
+    margin-bottom: 0.75rem;
+}
+
+.soziales-link {
+    display: inline-block;
+    color: #e74c3c;
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.soziales-link:hover {
+    color: #c0392b;
+    text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+    .soziales-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .soziales-image {
+        width: 180px;
+    }
+}
+
 /* Contact Section */
 .contact {
     padding: 80px 0;
