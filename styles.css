@@ -219,6 +219,13 @@ header {
     background: #f0f4f8;
 }
 
+.soziales h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+    color: #333;
+}
+
 .soziales-content {
     display: flex;
     align-items: center;
@@ -236,12 +243,6 @@ header {
     width: 100%;
     border-radius: 8px;
     box-shadow: 0 4px 15px rgba(0,0,0,0.08);
-}
-
-.soziales-text h2 {
-    font-size: 1.4rem;
-    color: #2c3e50;
-    margin-bottom: 0.75rem;
 }
 
 .soziales-text p {
